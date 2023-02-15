@@ -1,0 +1,1 @@
+const profileEl = document.querySelector(".profile");

@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stats-container{
+    margin: 20px;
+    border: double green;
+    min-width: 200px;
+    height: 100px;
+    position: relative;
+    padding: 20px;
+}
+.stats-container h4{
+    position: absolute;
+    bottom: 1px;
+    /* left:10%; */
+    transform: translateX(50%);
+    white-space: nowrap;
+}
+.icon{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.counter{
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: green;
+
+}
+
+@media(max-width:600px){
+    body{
+        flex-direction: column;
+    }
+}
